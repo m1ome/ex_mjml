@@ -27,3 +27,9 @@ ex_mjml-*.tar
 
 # Removing elixir_ls directory
 /.elixir_ls/
+
+# The directory that rustler will write compiled artifacts to.
+/priv
+
+# The directory that rust will compile to for testing.
+/native/mjml_nif/target
