@@ -1,7 +1,7 @@
 defmodule ExMjml.MixProject do
   use Mix.Project
 
-  @github_url ""
+  @github_url "https://github.com/m1ome/ex_mjml"
 
   def project do
     [
