@@ -10,5 +10,5 @@ path = "src/lib.rs"
 crate-type = ["dylib"]
 
 [dependencies]
-rustler = "0.22.0-rc.0"
-mrml = { version = "1.2.2", features = ["parse", "render"], default-features = false }
+rustler = "0.23.0"
+mrml = { version = "1.2.6", features = ["parse", "render"], default-features = false }

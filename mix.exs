@@ -7,9 +7,9 @@ defmodule ExMjml.MixProject do
     [
       app: :ex_mjml,
       version: "1.0.0",
-      elixir: "~> 1.9",
+      elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
-      compilers: [:rustler] ++ Mix.compilers(),
+      compilers: Mix.compilers(),
       rustler_crates: [mjml_nif: []],
       name: "ex_mjml",
       description: description(),
@@ -29,7 +29,7 @@ defmodule ExMjml.MixProject do
 
   defp deps do
     [
-      {:rustler, "~> 0.21"},
+      {:rustler, "~> 0.23.0"},
       {:ex_doc, "~> 0.23", only: :dev, runtime: false}
     ]
   end
